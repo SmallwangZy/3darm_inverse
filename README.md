@@ -43,3 +43,5 @@ $$
 $$
 \cos \left(\pi-\theta_2\right)=\frac{L_1^2+L_2^2-\left(x^2+y^2\right)}{2 L_1 L_2}
 $$
+
+![image-20240825130858611](https://wang-250-notes-1320145649.cos.ap-nanjing.myqcloud.com/Markdown/image-20240825130858611.png?imageSlim)
