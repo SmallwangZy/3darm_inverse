@@ -62,19 +62,19 @@ $$
 
 ![image-20240825131014131](https://wang-250-notes-1320145649.cos.ap-nanjing.myqcloud.com/Markdown/image-20240825131014131.png?imageSlim)
 
-4.3.2 正运动学及仿真
+# 正运动学及仿真
 
 正运动学与逆运动学相反, 正运动学的过程是给定控制量 $\theta_1$ 和 $\theta_2$, 推算出位姿, 即足尖的坐标。可以基于解三角形的方法实现, 但使用齐次变换矩阵的方式更容易理解, 并且在高自由度的时候,解三角形方法就难以分析了。首先介绍什么是齐次坐标, 对于二维空间中的一个点 $(x, y)$, 其齐次坐标是一个三维向量 $(x, y, 1)$ :
 
 $$
-\boldsymbol{x}=\left[\begin{array}{l}
+\boldsymbol{x}=[\begin{array}{l}
 x \\
 y
-\end{array}\right] \Rightarrow \overline{\boldsymbol{x}}=\left[\begin{array}{l}
+\end{array}] \Rightarrow \overline{\boldsymbol{x}}=[\begin{array}{l}
 x \\
 y \\
 1
-\end{array}\right]
+\end{array}]
 $$
 
 
